@@ -73,6 +73,7 @@ static NSString *accountingReusedID = @"accountingReusedID";
         _tableView = [[BaseTableView alloc] initWithFrame:self.view.bounds];
         _tableView.dataSource = self;
         _tableView.delegate = self;
+        _tableView.showsVerticalScrollIndicator = NO;
         [_tableView registerClass:[UITableViewCell class] forCellReuseIdentifier:accountingReusedID];
     }
     return _tableView;

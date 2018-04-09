@@ -82,7 +82,7 @@
 
 #pragma mark - 滑动颜色变换
 - (void)changBackgroundAlpha:(CGFloat)alpha {
-    self.backgroundView.backgroundColor = [ThemeColor colorWithAlphaComponent:alpha];
+    self.backgroundView.backgroundColor = [COLOR_THEME colorWithAlphaComponent:alpha];
 }
 
 
@@ -104,7 +104,7 @@
 - (UIView *)backgroundView {
     if (!_backgroundView) {
         _backgroundView = [UIView new];
-        _backgroundView.backgroundColor = ThemeColor;
+        _backgroundView.backgroundColor = COLOR_THEME;
     }
     return _backgroundView;
 }

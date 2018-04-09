@@ -27,6 +27,12 @@
 		F1FEA1AC207B173400C554A3 /* AccountTableViewHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = F1FEA1AB207B173400C554A3 /* AccountTableViewHeaderView.m */; };
 		F1FEA1B4207B1AC400C554A3 /* ManagerConst.m in Sources */ = {isa = PBXBuildFile; fileRef = F1FEA1B1207B1AC400C554A3 /* ManagerConst.m */; };
 		F1FEA1B5207B1AC400C554A3 /* FMDB_Manager.m in Sources */ = {isa = PBXBuildFile; fileRef = F1FEA1B3207B1AC400C554A3 /* FMDB_Manager.m */; };
+		F1FEA1B8207B4C4F00C554A3 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F1FEA1B7207B4C4F00C554A3 /* LoginViewController.m */; };
+		F1FEA1BA207B4DB800C554A3 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F1FEA1B9207B4DB800C554A3 /* AVFoundation.framework */; };
+		F1FEA1BC207B50AC00C554A3 /* Photos.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F1FEA1BB207B50AC00C554A3 /* Photos.framework */; };
+		F1FEA1C1207B586900C554A3 /* LoginVideo.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = F1FEA1C0207B586900C554A3 /* LoginVideo.mp4 */; };
+		F1FEA1C5207B5DF200C554A3 /* LoginMessageView.m in Sources */ = {isa = PBXBuildFile; fileRef = F1FEA1C4207B5DF200C554A3 /* LoginMessageView.m */; };
+		F1FEA1C8207B5FBC00C554A3 /* UIView+myFrame.m in Sources */ = {isa = PBXBuildFile; fileRef = F1FEA1C7207B5FBC00C554A3 /* UIView+myFrame.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -91,6 +97,15 @@
 		F1FEA1B1207B1AC400C554A3 /* ManagerConst.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ManagerConst.m; sourceTree = "<group>"; };
 		F1FEA1B2207B1AC400C554A3 /* FMDB_Manager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDB_Manager.h; sourceTree = "<group>"; };
 		F1FEA1B3207B1AC400C554A3 /* FMDB_Manager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDB_Manager.m; sourceTree = "<group>"; };
+		F1FEA1B6207B4C4F00C554A3 /* LoginViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
+		F1FEA1B7207B4C4F00C554A3 /* LoginViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
+		F1FEA1B9207B4DB800C554A3 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		F1FEA1BB207B50AC00C554A3 /* Photos.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Photos.framework; path = System/Library/Frameworks/Photos.framework; sourceTree = SDKROOT; };
+		F1FEA1C0207B586900C554A3 /* LoginVideo.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = LoginVideo.mp4; sourceTree = "<group>"; };
+		F1FEA1C3207B5DF200C554A3 /* LoginMessageView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LoginMessageView.h; sourceTree = "<group>"; };
+		F1FEA1C4207B5DF200C554A3 /* LoginMessageView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LoginMessageView.m; sourceTree = "<group>"; };
+		F1FEA1C6207B5FBC00C554A3 /* UIView+myFrame.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIView+myFrame.h"; sourceTree = "<group>"; };
+		F1FEA1C7207B5FBC00C554A3 /* UIView+myFrame.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIView+myFrame.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +113,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F1FEA1BC207B50AC00C554A3 /* Photos.framework in Frameworks */,
+				F1FEA1BA207B4DB800C554A3 /* AVFoundation.framework in Frameworks */,
 				DB8280C3768D27B2FAC2167B /* libPods-LittleToast.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -131,6 +148,8 @@
 		A0E3A4C8CF4F4005E3321817 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				F1FEA1BB207B50AC00C554A3 /* Photos.framework */,
+				F1FEA1B9207B4DB800C554A3 /* AVFoundation.framework */,
 				98450CDF726E7DA088838BEA /* libPods-LittleToast.a */,
 			);
 			name = Frameworks;
@@ -143,6 +162,8 @@
 				F1FEA191207A03F200C554A3 /* UINavigationController+FDFullscreenPopGesture.m */,
 				F16FFBAC206FCE64006411DB /* UIColor+My.h */,
 				F16FFBAB206FCE64006411DB /* UIColor+My.m */,
+				F1FEA1C6207B5FBC00C554A3 /* UIView+myFrame.h */,
+				F1FEA1C7207B5FBC00C554A3 /* UIView+myFrame.m */,
 			);
 			path = Categary;
 			sourceTree = "<group>";
@@ -215,6 +236,7 @@
 		F19C20872069E07D00CFCE75 /* LittleToast */ = {
 			isa = PBXGroup;
 			children = (
+				F1FEA1BD207B584900C554A3 /* Resource */,
 				F19C20BA2069E0EA00CFCE75 /* Classes */,
 				F19C20882069E07D00CFCE75 /* AppDelegate.h */,
 				F19C20892069E07D00CFCE75 /* AppDelegate.m */,
@@ -306,6 +328,9 @@
 		F1FEA1AD207B184E00C554A3 /* Login */ = {
 			isa = PBXGroup;
 			children = (
+				F1FEA1B6207B4C4F00C554A3 /* LoginViewController.h */,
+				F1FEA1B7207B4C4F00C554A3 /* LoginViewController.m */,
+				F1FEA1C2207B5DE500C554A3 /* Views */,
 			);
 			path = Login;
 			sourceTree = "<group>";
@@ -327,6 +352,23 @@
 				F1FEA1B1207B1AC400C554A3 /* ManagerConst.m */,
 			);
 			path = Tools;
+			sourceTree = "<group>";
+		};
+		F1FEA1BD207B584900C554A3 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				F1FEA1C0207B586900C554A3 /* LoginVideo.mp4 */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		F1FEA1C2207B5DE500C554A3 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				F1FEA1C3207B5DF200C554A3 /* LoginMessageView.h */,
+				F1FEA1C4207B5DF200C554A3 /* LoginMessageView.m */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -440,6 +482,7 @@
 			files = (
 				F19C20952069E07D00CFCE75 /* LaunchScreen.storyboard in Resources */,
 				F19C20922069E07D00CFCE75 /* Assets.xcassets in Resources */,
+				F1FEA1C1207B586900C554A3 /* LoginVideo.mp4 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -526,11 +569,14 @@
 				F1FEA1B4207B1AC400C554A3 /* ManagerConst.m in Sources */,
 				F16FFBA2206FC564006411DB /* MainViewController.m in Sources */,
 				F19C20982069E07D00CFCE75 /* main.m in Sources */,
+				F1FEA1B8207B4C4F00C554A3 /* LoginViewController.m in Sources */,
 				F1FEA1A9207B166100C554A3 /* AccountBarView.m in Sources */,
+				F1FEA1C8207B5FBC00C554A3 /* UIView+myFrame.m in Sources */,
 				F1FEA1A3207A08A400C554A3 /* BaseTableView.m in Sources */,
 				F1FEA18E207A01EC00C554A3 /* BaseNavigationController.m in Sources */,
 				F1FEA1B5207B1AC400C554A3 /* FMDB_Manager.m in Sources */,
 				F16FFBA5206FC59B006411DB /* BaseViewController.m in Sources */,
+				F1FEA1C5207B5DF200C554A3 /* LoginMessageView.m in Sources */,
 				F16FFBAD206FCE64006411DB /* UIColor+My.m in Sources */,
 				F19C208A2069E07D00CFCE75 /* AppDelegate.m in Sources */,
 			);
@@ -692,6 +738,7 @@
 				DEVELOPMENT_TEAM = LKCQBCAS97;
 				GCC_PREFIX_HEADER = "$(SRCROOT)/LittleToast/Classes/LittleToast.pch";
 				INFOPLIST_FILE = LittleToast/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = kitsCode.LittleToast;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -708,6 +755,7 @@
 				DEVELOPMENT_TEAM = LKCQBCAS97;
 				GCC_PREFIX_HEADER = "$(SRCROOT)/LittleToast/Classes/LittleToast.pch";
 				INFOPLIST_FILE = LittleToast/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = kitsCode.LittleToast;
 				PRODUCT_NAME = "$(TARGET_NAME)";

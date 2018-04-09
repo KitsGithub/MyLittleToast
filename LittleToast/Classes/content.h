@@ -21,16 +21,16 @@
 //导航栏整体高度
 #define Navigation_Height STATUSBAR_HEIGHT + NavigationBar_Height
 
+
 /**
- 主题颜色
+ 颜色
  */
-#define ThemeColor [UIColor colorFormHexRGB:@"FFAE01"]
-
-#define TextColor [UIColor colorFormHexRGB:@"333333"]
-#define SubTextColor [UIColor colorFormHexRGB:@"666666"]
-#define TipsColor [UIColor colorFormHexRGB:@"999999"]
-#define SepoartColor [UIColor colorFormHexRGB:@"E5E5E5"]
-
+#define COLOR_THEME [UIColor colorFormHexRGB:@"FFAE01"]
+#define COLOR_TEXT [UIColor colorFormHexRGB:@"333333"]
+#define COLOR_SUBTEXT [UIColor colorFormHexRGB:@"666666"]
+#define COLOR_TIPS [UIColor colorFormHexRGB:@"999999"]
+#define COLOR_SEPOARTE [UIColor colorFormHexRGB:@"E5E5E5"]
+#define COLOR_WHITE [UIColor whiteColor]
 
 //userInfo路径
 #define USERINFO_PATH [DocumentPATH stringByAppendingPathComponent:@"USERINFO.plist"]
@@ -38,8 +38,15 @@
 //沙盒路径
 #define DocumentPATH  [NSSearchPathForDirectoriesInDomains(NSDocumentDirectory, NSUserDomainMask, YES) objectAtIndex:0]
 //数据库路径
-#define DBPath [DocumentPATH stringByAppendingPathComponent:@"SFWL_DataBase.sqlite"]
+#define DBPath [DocumentPATH stringByAppendingPathComponent:@"My_DataBase.sqlite"]
 
 
+/** 项目间距配置 */
+#define paddingLeft 20
+
+/** 常用字体 */
+#define FONT_NORMAL [UIFont systemFontOfSize:14]
+#define FONT_TITLE [UIFont systemFontOfSize:16]
+#define FONT_BOLD [UIFont boldSystemFontOfSize:14]
 
 #endif /* content_h */

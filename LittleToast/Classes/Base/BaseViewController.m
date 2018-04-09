@@ -16,7 +16,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
-    
+    self.view.backgroundColor = [UIColor whiteColor];
     [self setupNav];
     [self setupView];
 }
@@ -27,6 +27,12 @@
 
 - (void)setupView {
     
+}
+
+
+- (void)dealloc {
+    [[NSNotificationCenter defaultCenter] removeObserver:self];
+    NSLog(@"%@销毁了",NSStringFromClass(self.class));
 }
 
 

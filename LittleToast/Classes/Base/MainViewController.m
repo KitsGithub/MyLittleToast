@@ -70,7 +70,7 @@
     childVc.tabBarItem.selectedImage = [[UIImage imageNamed:self.selImgArr[tag]] imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal];
     
     // 设置 tabbarItem 选中状态下的文字颜色(不被系统默认渲染,显示文字自定义颜色)
-    NSDictionary *dictHome = [NSDictionary dictionaryWithObject:ThemeColor forKey:NSForegroundColorAttributeName];
+    NSDictionary *dictHome = [NSDictionary dictionaryWithObject:COLOR_THEME forKey:NSForegroundColorAttributeName];
     [childVc.tabBarItem setTitleTextAttributes:dictHome forState:UIControlStateSelected];
     childVc.title = name;
     
