@@ -1,0 +1,830 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DB8280C3768D27B2FAC2167B /* libPods-LittleToast.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 98450CDF726E7DA088838BEA /* libPods-LittleToast.a */; };
+		F16FFBA2206FC564006411DB /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F16FFBA1206FC564006411DB /* MainViewController.m */; };
+		F16FFBA5206FC59B006411DB /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F16FFBA4206FC59B006411DB /* BaseViewController.m */; };
+		F16FFBAD206FCE64006411DB /* UIColor+My.m in Sources */ = {isa = PBXBuildFile; fileRef = F16FFBAB206FCE64006411DB /* UIColor+My.m */; };
+		F16FFBB5206FD0A4006411DB /* AccountController.m in Sources */ = {isa = PBXBuildFile; fileRef = F16FFBB4206FD0A4006411DB /* AccountController.m */; };
+		F19C208A2069E07D00CFCE75 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F19C20892069E07D00CFCE75 /* AppDelegate.m */; };
+		F19C20902069E07D00CFCE75 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F19C208E2069E07D00CFCE75 /* Main.storyboard */; };
+		F19C20922069E07D00CFCE75 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F19C20912069E07D00CFCE75 /* Assets.xcassets */; };
+		F19C20952069E07D00CFCE75 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F19C20932069E07D00CFCE75 /* LaunchScreen.storyboard */; };
+		F19C20982069E07D00CFCE75 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F19C20972069E07D00CFCE75 /* main.m */; };
+		F19C20A22069E07E00CFCE75 /* LittleToastTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F19C20A12069E07E00CFCE75 /* LittleToastTests.m */; };
+		F19C20AD2069E07E00CFCE75 /* LittleToastUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = F19C20AC2069E07E00CFCE75 /* LittleToastUITests.m */; };
+		F19C20C02069E10B00CFCE75 /* AccountingController.m in Sources */ = {isa = PBXBuildFile; fileRef = F19C20BF2069E10B00CFCE75 /* AccountingController.m */; };
+		F1FEA18E207A01EC00C554A3 /* BaseNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = F1FEA18D207A01EC00C554A3 /* BaseNavigationController.m */; };
+		F1FEA192207A03F200C554A3 /* UINavigationController+FDFullscreenPopGesture.m in Sources */ = {isa = PBXBuildFile; fileRef = F1FEA191207A03F200C554A3 /* UINavigationController+FDFullscreenPopGesture.m */; };
+		F1FEA1A3207A08A400C554A3 /* BaseTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = F1FEA1A2207A08A400C554A3 /* BaseTableView.m */; };
+		F1FEA1A6207B007F00C554A3 /* BaseNavBarView.m in Sources */ = {isa = PBXBuildFile; fileRef = F1FEA1A5207B007F00C554A3 /* BaseNavBarView.m */; };
+		F1FEA1A9207B166100C554A3 /* AccountBarView.m in Sources */ = {isa = PBXBuildFile; fileRef = F1FEA1A8207B166100C554A3 /* AccountBarView.m */; };
+		F1FEA1AC207B173400C554A3 /* AccountTableViewHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = F1FEA1AB207B173400C554A3 /* AccountTableViewHeaderView.m */; };
+		F1FEA1B4207B1AC400C554A3 /* ManagerConst.m in Sources */ = {isa = PBXBuildFile; fileRef = F1FEA1B1207B1AC400C554A3 /* ManagerConst.m */; };
+		F1FEA1B5207B1AC400C554A3 /* FMDB_Manager.m in Sources */ = {isa = PBXBuildFile; fileRef = F1FEA1B3207B1AC400C554A3 /* FMDB_Manager.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F19C209E2069E07E00CFCE75 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F19C207D2069E07D00CFCE75 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F19C20842069E07D00CFCE75;
+			remoteInfo = LittleToast;
+		};
+		F19C20A92069E07E00CFCE75 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F19C207D2069E07D00CFCE75 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F19C20842069E07D00CFCE75;
+			remoteInfo = LittleToast;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8D1AC7D45928FAF0C701E449 /* Pods-LittleToast.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LittleToast.release.xcconfig"; path = "Pods/Target Support Files/Pods-LittleToast/Pods-LittleToast.release.xcconfig"; sourceTree = "<group>"; };
+		98450CDF726E7DA088838BEA /* libPods-LittleToast.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-LittleToast.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DD841EC9604396C3A6A13D16 /* Pods-LittleToast.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LittleToast.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LittleToast/Pods-LittleToast.debug.xcconfig"; sourceTree = "<group>"; };
+		F16FFB9F206FC316006411DB /* content.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = content.h; sourceTree = "<group>"; };
+		F16FFBA0206FC564006411DB /* MainViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		F16FFBA1206FC564006411DB /* MainViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		F16FFBA3206FC59B006411DB /* BaseViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BaseViewController.h; sourceTree = "<group>"; };
+		F16FFBA4206FC59B006411DB /* BaseViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BaseViewController.m; sourceTree = "<group>"; };
+		F16FFBAB206FCE64006411DB /* UIColor+My.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+My.m"; sourceTree = "<group>"; };
+		F16FFBAC206FCE64006411DB /* UIColor+My.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+My.h"; sourceTree = "<group>"; };
+		F16FFBB3206FD0A4006411DB /* AccountController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AccountController.h; sourceTree = "<group>"; };
+		F16FFBB4206FD0A4006411DB /* AccountController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AccountController.m; sourceTree = "<group>"; };
+		F19C20852069E07D00CFCE75 /* LittleToast.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LittleToast.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F19C20882069E07D00CFCE75 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F19C20892069E07D00CFCE75 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F19C208F2069E07D00CFCE75 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F19C20912069E07D00CFCE75 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F19C20942069E07D00CFCE75 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F19C20962069E07D00CFCE75 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F19C20972069E07D00CFCE75 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F19C209D2069E07E00CFCE75 /* LittleToastTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LittleToastTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F19C20A12069E07E00CFCE75 /* LittleToastTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LittleToastTests.m; sourceTree = "<group>"; };
+		F19C20A32069E07E00CFCE75 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F19C20A82069E07E00CFCE75 /* LittleToastUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LittleToastUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F19C20AC2069E07E00CFCE75 /* LittleToastUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LittleToastUITests.m; sourceTree = "<group>"; };
+		F19C20AE2069E07E00CFCE75 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F19C20BE2069E10B00CFCE75 /* AccountingController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AccountingController.h; sourceTree = "<group>"; };
+		F19C20BF2069E10B00CFCE75 /* AccountingController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AccountingController.m; sourceTree = "<group>"; };
+		F1FEA18C207A01EC00C554A3 /* BaseNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseNavigationController.h; sourceTree = "<group>"; };
+		F1FEA18D207A01EC00C554A3 /* BaseNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseNavigationController.m; sourceTree = "<group>"; };
+		F1FEA18F207A024700C554A3 /* LittleToast.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LittleToast.pch; sourceTree = "<group>"; };
+		F1FEA190207A03F200C554A3 /* UINavigationController+FDFullscreenPopGesture.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UINavigationController+FDFullscreenPopGesture.h"; sourceTree = "<group>"; };
+		F1FEA191207A03F200C554A3 /* UINavigationController+FDFullscreenPopGesture.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UINavigationController+FDFullscreenPopGesture.m"; sourceTree = "<group>"; };
+		F1FEA1A1207A08A400C554A3 /* BaseTableView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BaseTableView.h; sourceTree = "<group>"; };
+		F1FEA1A2207A08A400C554A3 /* BaseTableView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BaseTableView.m; sourceTree = "<group>"; };
+		F1FEA1A4207B007F00C554A3 /* BaseNavBarView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BaseNavBarView.h; sourceTree = "<group>"; };
+		F1FEA1A5207B007F00C554A3 /* BaseNavBarView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BaseNavBarView.m; sourceTree = "<group>"; };
+		F1FEA1A7207B166100C554A3 /* AccountBarView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AccountBarView.h; sourceTree = "<group>"; };
+		F1FEA1A8207B166100C554A3 /* AccountBarView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AccountBarView.m; sourceTree = "<group>"; };
+		F1FEA1AA207B173400C554A3 /* AccountTableViewHeaderView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AccountTableViewHeaderView.h; sourceTree = "<group>"; };
+		F1FEA1AB207B173400C554A3 /* AccountTableViewHeaderView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AccountTableViewHeaderView.m; sourceTree = "<group>"; };
+		F1FEA1B0207B1AC400C554A3 /* ManagerConst.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ManagerConst.h; sourceTree = "<group>"; };
+		F1FEA1B1207B1AC400C554A3 /* ManagerConst.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ManagerConst.m; sourceTree = "<group>"; };
+		F1FEA1B2207B1AC400C554A3 /* FMDB_Manager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDB_Manager.h; sourceTree = "<group>"; };
+		F1FEA1B3207B1AC400C554A3 /* FMDB_Manager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDB_Manager.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F19C20822069E07D00CFCE75 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB8280C3768D27B2FAC2167B /* libPods-LittleToast.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F19C209A2069E07E00CFCE75 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F19C20A52069E07E00CFCE75 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		59578E98901C4F4BDAFD0D11 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				DD841EC9604396C3A6A13D16 /* Pods-LittleToast.debug.xcconfig */,
+				8D1AC7D45928FAF0C701E449 /* Pods-LittleToast.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		A0E3A4C8CF4F4005E3321817 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				98450CDF726E7DA088838BEA /* libPods-LittleToast.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F16FFBAA206FCE4C006411DB /* Categary */ = {
+			isa = PBXGroup;
+			children = (
+				F1FEA190207A03F200C554A3 /* UINavigationController+FDFullscreenPopGesture.h */,
+				F1FEA191207A03F200C554A3 /* UINavigationController+FDFullscreenPopGesture.m */,
+				F16FFBAC206FCE64006411DB /* UIColor+My.h */,
+				F16FFBAB206FCE64006411DB /* UIColor+My.m */,
+			);
+			path = Categary;
+			sourceTree = "<group>";
+		};
+		F16FFBAE206FD04E006411DB /* Functons */ = {
+			isa = PBXGroup;
+			children = (
+				F1FEA1AD207B184E00C554A3 /* Login */,
+				F16FFBAF206FD065006411DB /* Accounting */,
+				F16FFBB0206FD06F006411DB /* Cards */,
+				F16FFBB1206FD07E006411DB /* Members */,
+				F16FFBB2206FD085006411DB /* Mine */,
+			);
+			path = Functons;
+			sourceTree = "<group>";
+		};
+		F16FFBAF206FD065006411DB /* Accounting */ = {
+			isa = PBXGroup;
+			children = (
+				F16FFBB3206FD0A4006411DB /* AccountController.h */,
+				F16FFBB4206FD0A4006411DB /* AccountController.m */,
+				F1FEA193207A076B00C554A3 /* Views */,
+			);
+			path = Accounting;
+			sourceTree = "<group>";
+		};
+		F16FFBB0206FD06F006411DB /* Cards */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Cards;
+			sourceTree = "<group>";
+		};
+		F16FFBB1206FD07E006411DB /* Members */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Members;
+			sourceTree = "<group>";
+		};
+		F16FFBB2206FD085006411DB /* Mine */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Mine;
+			sourceTree = "<group>";
+		};
+		F19C207C2069E07D00CFCE75 = {
+			isa = PBXGroup;
+			children = (
+				F19C20872069E07D00CFCE75 /* LittleToast */,
+				F19C20A02069E07E00CFCE75 /* LittleToastTests */,
+				F19C20AB2069E07E00CFCE75 /* LittleToastUITests */,
+				F19C20862069E07D00CFCE75 /* Products */,
+				59578E98901C4F4BDAFD0D11 /* Pods */,
+				A0E3A4C8CF4F4005E3321817 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		F19C20862069E07D00CFCE75 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F19C20852069E07D00CFCE75 /* LittleToast.app */,
+				F19C209D2069E07E00CFCE75 /* LittleToastTests.xctest */,
+				F19C20A82069E07E00CFCE75 /* LittleToastUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F19C20872069E07D00CFCE75 /* LittleToast */ = {
+			isa = PBXGroup;
+			children = (
+				F19C20BA2069E0EA00CFCE75 /* Classes */,
+				F19C20882069E07D00CFCE75 /* AppDelegate.h */,
+				F19C20892069E07D00CFCE75 /* AppDelegate.m */,
+				F19C208E2069E07D00CFCE75 /* Main.storyboard */,
+				F19C20912069E07D00CFCE75 /* Assets.xcassets */,
+				F19C20932069E07D00CFCE75 /* LaunchScreen.storyboard */,
+				F19C20962069E07D00CFCE75 /* Info.plist */,
+				F19C20972069E07D00CFCE75 /* main.m */,
+			);
+			path = LittleToast;
+			sourceTree = "<group>";
+		};
+		F19C20A02069E07E00CFCE75 /* LittleToastTests */ = {
+			isa = PBXGroup;
+			children = (
+				F19C20A12069E07E00CFCE75 /* LittleToastTests.m */,
+				F19C20A32069E07E00CFCE75 /* Info.plist */,
+			);
+			path = LittleToastTests;
+			sourceTree = "<group>";
+		};
+		F19C20AB2069E07E00CFCE75 /* LittleToastUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F19C20AC2069E07E00CFCE75 /* LittleToastUITests.m */,
+				F19C20AE2069E07E00CFCE75 /* Info.plist */,
+			);
+			path = LittleToastUITests;
+			sourceTree = "<group>";
+		};
+		F19C20BA2069E0EA00CFCE75 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				F1FEA18F207A024700C554A3 /* LittleToast.pch */,
+				F16FFB9F206FC316006411DB /* content.h */,
+				F16FFBAE206FD04E006411DB /* Functons */,
+				F16FFBAA206FCE4C006411DB /* Categary */,
+				F19C20C42069E17600CFCE75 /* Base */,
+				F19C20C52069E17600CFCE75 /* ThirdPart */,
+				F19C20BB2069E0EA00CFCE75 /* Accounting */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		F19C20BB2069E0EA00CFCE75 /* Accounting */ = {
+			isa = PBXGroup;
+			children = (
+				F19C20BE2069E10B00CFCE75 /* AccountingController.h */,
+				F19C20BF2069E10B00CFCE75 /* AccountingController.m */,
+			);
+			path = Accounting;
+			sourceTree = "<group>";
+		};
+		F19C20C42069E17600CFCE75 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				F1FEA1A4207B007F00C554A3 /* BaseNavBarView.h */,
+				F1FEA1A5207B007F00C554A3 /* BaseNavBarView.m */,
+				F1FEA18C207A01EC00C554A3 /* BaseNavigationController.h */,
+				F1FEA18D207A01EC00C554A3 /* BaseNavigationController.m */,
+				F16FFBA0206FC564006411DB /* MainViewController.h */,
+				F16FFBA1206FC564006411DB /* MainViewController.m */,
+				F16FFBA3206FC59B006411DB /* BaseViewController.h */,
+				F16FFBA4206FC59B006411DB /* BaseViewController.m */,
+				F1FEA1A1207A08A400C554A3 /* BaseTableView.h */,
+				F1FEA1A2207A08A400C554A3 /* BaseTableView.m */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		F19C20C52069E17600CFCE75 /* ThirdPart */ = {
+			isa = PBXGroup;
+			children = (
+				F1FEA1AE207B1AC400C554A3 /* FMDBManager */,
+			);
+			path = ThirdPart;
+			sourceTree = "<group>";
+		};
+		F1FEA193207A076B00C554A3 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				F1FEA1A7207B166100C554A3 /* AccountBarView.h */,
+				F1FEA1A8207B166100C554A3 /* AccountBarView.m */,
+				F1FEA1AA207B173400C554A3 /* AccountTableViewHeaderView.h */,
+				F1FEA1AB207B173400C554A3 /* AccountTableViewHeaderView.m */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		F1FEA1AD207B184E00C554A3 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		F1FEA1AE207B1AC400C554A3 /* FMDBManager */ = {
+			isa = PBXGroup;
+			children = (
+				F1FEA1AF207B1AC400C554A3 /* Tools */,
+				F1FEA1B2207B1AC400C554A3 /* FMDB_Manager.h */,
+				F1FEA1B3207B1AC400C554A3 /* FMDB_Manager.m */,
+			);
+			path = FMDBManager;
+			sourceTree = "<group>";
+		};
+		F1FEA1AF207B1AC400C554A3 /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+				F1FEA1B0207B1AC400C554A3 /* ManagerConst.h */,
+				F1FEA1B1207B1AC400C554A3 /* ManagerConst.m */,
+			);
+			path = Tools;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F19C20842069E07D00CFCE75 /* LittleToast */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F19C20B12069E07E00CFCE75 /* Build configuration list for PBXNativeTarget "LittleToast" */;
+			buildPhases = (
+				70E14AA8F607DA88B8E42E4F /* [CP] Check Pods Manifest.lock */,
+				F19C20812069E07D00CFCE75 /* Sources */,
+				F19C20822069E07D00CFCE75 /* Frameworks */,
+				F19C20832069E07D00CFCE75 /* Resources */,
+				0C245E6468E50DB497F5C15B /* [CP] Embed Pods Frameworks */,
+				FB3EB7117CBA110B50D6AB5C /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LittleToast;
+			productName = LittleToast;
+			productReference = F19C20852069E07D00CFCE75 /* LittleToast.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F19C209C2069E07E00CFCE75 /* LittleToastTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F19C20B42069E07E00CFCE75 /* Build configuration list for PBXNativeTarget "LittleToastTests" */;
+			buildPhases = (
+				F19C20992069E07E00CFCE75 /* Sources */,
+				F19C209A2069E07E00CFCE75 /* Frameworks */,
+				F19C209B2069E07E00CFCE75 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F19C209F2069E07E00CFCE75 /* PBXTargetDependency */,
+			);
+			name = LittleToastTests;
+			productName = LittleToastTests;
+			productReference = F19C209D2069E07E00CFCE75 /* LittleToastTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F19C20A72069E07E00CFCE75 /* LittleToastUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F19C20B72069E07E00CFCE75 /* Build configuration list for PBXNativeTarget "LittleToastUITests" */;
+			buildPhases = (
+				F19C20A42069E07E00CFCE75 /* Sources */,
+				F19C20A52069E07E00CFCE75 /* Frameworks */,
+				F19C20A62069E07E00CFCE75 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F19C20AA2069E07E00CFCE75 /* PBXTargetDependency */,
+			);
+			name = LittleToastUITests;
+			productName = LittleToastUITests;
+			productReference = F19C20A82069E07E00CFCE75 /* LittleToastUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F19C207D2069E07D00CFCE75 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = Mr_kit;
+				TargetAttributes = {
+					F19C20842069E07D00CFCE75 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					F19C209C2069E07E00CFCE75 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = F19C20842069E07D00CFCE75;
+					};
+					F19C20A72069E07E00CFCE75 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = F19C20842069E07D00CFCE75;
+					};
+				};
+			};
+			buildConfigurationList = F19C20802069E07D00CFCE75 /* Build configuration list for PBXProject "LittleToast" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F19C207C2069E07D00CFCE75;
+			productRefGroup = F19C20862069E07D00CFCE75 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F19C20842069E07D00CFCE75 /* LittleToast */,
+				F19C209C2069E07E00CFCE75 /* LittleToastTests */,
+				F19C20A72069E07E00CFCE75 /* LittleToastUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F19C20832069E07D00CFCE75 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F19C20952069E07D00CFCE75 /* LaunchScreen.storyboard in Resources */,
+				F19C20922069E07D00CFCE75 /* Assets.xcassets in Resources */,
+				F19C20902069E07D00CFCE75 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F19C209B2069E07E00CFCE75 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F19C20A62069E07E00CFCE75 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0C245E6468E50DB497F5C15B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LittleToast/Pods-LittleToast-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		70E14AA8F607DA88B8E42E4F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LittleToast-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FB3EB7117CBA110B50D6AB5C /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-LittleToast/Pods-LittleToast-resources.sh",
+				"${PODS_ROOT}/MJRefresh/MJRefresh/MJRefresh.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LittleToast/Pods-LittleToast-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F19C20812069E07D00CFCE75 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F1FEA192207A03F200C554A3 /* UINavigationController+FDFullscreenPopGesture.m in Sources */,
+				F1FEA1AC207B173400C554A3 /* AccountTableViewHeaderView.m in Sources */,
+				F19C20C02069E10B00CFCE75 /* AccountingController.m in Sources */,
+				F16FFBB5206FD0A4006411DB /* AccountController.m in Sources */,
+				F1FEA1A6207B007F00C554A3 /* BaseNavBarView.m in Sources */,
+				F1FEA1B4207B1AC400C554A3 /* ManagerConst.m in Sources */,
+				F16FFBA2206FC564006411DB /* MainViewController.m in Sources */,
+				F19C20982069E07D00CFCE75 /* main.m in Sources */,
+				F1FEA1A9207B166100C554A3 /* AccountBarView.m in Sources */,
+				F1FEA1A3207A08A400C554A3 /* BaseTableView.m in Sources */,
+				F1FEA18E207A01EC00C554A3 /* BaseNavigationController.m in Sources */,
+				F1FEA1B5207B1AC400C554A3 /* FMDB_Manager.m in Sources */,
+				F16FFBA5206FC59B006411DB /* BaseViewController.m in Sources */,
+				F16FFBAD206FCE64006411DB /* UIColor+My.m in Sources */,
+				F19C208A2069E07D00CFCE75 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F19C20992069E07E00CFCE75 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F19C20A22069E07E00CFCE75 /* LittleToastTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F19C20A42069E07E00CFCE75 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F19C20AD2069E07E00CFCE75 /* LittleToastUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F19C209F2069E07E00CFCE75 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F19C20842069E07D00CFCE75 /* LittleToast */;
+			targetProxy = F19C209E2069E07E00CFCE75 /* PBXContainerItemProxy */;
+		};
+		F19C20AA2069E07E00CFCE75 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F19C20842069E07D00CFCE75 /* LittleToast */;
+			targetProxy = F19C20A92069E07E00CFCE75 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F19C208E2069E07D00CFCE75 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F19C208F2069E07D00CFCE75 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F19C20932069E07D00CFCE75 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F19C20942069E07D00CFCE75 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F19C20AF2069E07E00CFCE75 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		F19C20B02069E07E00CFCE75 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F19C20B22069E07E00CFCE75 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DD841EC9604396C3A6A13D16 /* Pods-LittleToast.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = LKCQBCAS97;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/LittleToast/Classes/LittleToast.pch";
+				INFOPLIST_FILE = LittleToast/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = kitsCode.LittleToast;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F19C20B32069E07E00CFCE75 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8D1AC7D45928FAF0C701E449 /* Pods-LittleToast.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = LKCQBCAS97;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/LittleToast/Classes/LittleToast.pch";
+				INFOPLIST_FILE = LittleToast/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = kitsCode.LittleToast;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		F19C20B52069E07E00CFCE75 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = LKCQBCAS97;
+				INFOPLIST_FILE = LittleToastTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = kitsCode.LittleToastTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LittleToast.app/LittleToast";
+			};
+			name = Debug;
+		};
+		F19C20B62069E07E00CFCE75 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = LKCQBCAS97;
+				INFOPLIST_FILE = LittleToastTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = kitsCode.LittleToastTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LittleToast.app/LittleToast";
+			};
+			name = Release;
+		};
+		F19C20B82069E07E00CFCE75 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = LKCQBCAS97;
+				INFOPLIST_FILE = LittleToastUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = kitsCode.LittleToastUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = LittleToast;
+			};
+			name = Debug;
+		};
+		F19C20B92069E07E00CFCE75 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = LKCQBCAS97;
+				INFOPLIST_FILE = LittleToastUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = kitsCode.LittleToastUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = LittleToast;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F19C20802069E07D00CFCE75 /* Build configuration list for PBXProject "LittleToast" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F19C20AF2069E07E00CFCE75 /* Debug */,
+				F19C20B02069E07E00CFCE75 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F19C20B12069E07E00CFCE75 /* Build configuration list for PBXNativeTarget "LittleToast" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F19C20B22069E07E00CFCE75 /* Debug */,
+				F19C20B32069E07E00CFCE75 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F19C20B42069E07E00CFCE75 /* Build configuration list for PBXNativeTarget "LittleToastTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F19C20B52069E07E00CFCE75 /* Debug */,
+				F19C20B62069E07E00CFCE75 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F19C20B72069E07E00CFCE75 /* Build configuration list for PBXNativeTarget "LittleToastUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F19C20B82069E07E00CFCE75 /* Debug */,
+				F19C20B92069E07E00CFCE75 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F19C207D2069E07D00CFCE75 /* Project object */;
+}

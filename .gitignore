@@ -1,0 +1,7 @@
+## IOS ignore
+*.DS_Store
+
+/Pods
+/Podfile.lock
+/LittleToast.xcworkspace
+
