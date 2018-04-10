@@ -33,6 +33,37 @@
 		F1FEA1C1207B586900C554A3 /* LoginVideo.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = F1FEA1C0207B586900C554A3 /* LoginVideo.mp4 */; };
 		F1FEA1C5207B5DF200C554A3 /* LoginMessageView.m in Sources */ = {isa = PBXBuildFile; fileRef = F1FEA1C4207B5DF200C554A3 /* LoginMessageView.m */; };
 		F1FEA1C8207B5FBC00C554A3 /* UIView+myFrame.m in Sources */ = {isa = PBXBuildFile; fileRef = F1FEA1C7207B5FBC00C554A3 /* UIView+myFrame.m */; };
+		F1FEA20C207C905F00C554A3 /* UIView+Snapshot.m in Sources */ = {isa = PBXBuildFile; fileRef = F1FEA1CC207C905F00C554A3 /* UIView+Snapshot.m */; };
+		F1FEA20D207C905F00C554A3 /* UINavigationController+XWTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = F1FEA1CD207C905F00C554A3 /* UINavigationController+XWTransition.m */; };
+		F1FEA20E207C905F00C554A3 /* UIViewController+XWTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = F1FEA1D1207C905F00C554A3 /* UIViewController+XWTransition.m */; };
+		F1FEA20F207C905F00C554A3 /* XWFilterAnimator+XWBarSwipe.m in Sources */ = {isa = PBXBuildFile; fileRef = F1FEA1D5207C905F00C554A3 /* XWFilterAnimator+XWBarSwipe.m */; };
+		F1FEA210207C905F00C554A3 /* XWFilterAnimator+XWPageCurl.m in Sources */ = {isa = PBXBuildFile; fileRef = F1FEA1D6207C905F00C554A3 /* XWFilterAnimator+XWPageCurl.m */; };
+		F1FEA211207C905F00C554A3 /* XWFilterAnimator+XWCopyMachine.m in Sources */ = {isa = PBXBuildFile; fileRef = F1FEA1DA207C905F00C554A3 /* XWFilterAnimator+XWCopyMachine.m */; };
+		F1FEA212207C905F00C554A3 /* XWFilterAnimator+XWRipple.m in Sources */ = {isa = PBXBuildFile; fileRef = F1FEA1DD207C905F00C554A3 /* XWFilterAnimator+XWRipple.m */; };
+		F1FEA213207C905F00C554A3 /* XWFilterAnimator+XWFlash.m in Sources */ = {isa = PBXBuildFile; fileRef = F1FEA1DE207C905F00C554A3 /* XWFilterAnimator+XWFlash.m */; };
+		F1FEA214207C905F00C554A3 /* XWFilterAnimator+XWMod.m in Sources */ = {isa = PBXBuildFile; fileRef = F1FEA1DF207C905F00C554A3 /* XWFilterAnimator+XWMod.m */; };
+		F1FEA215207C905F00C554A3 /* XWFilterAnimator+XWMask.m in Sources */ = {isa = PBXBuildFile; fileRef = F1FEA1E0207C905F00C554A3 /* XWFilterAnimator+XWMask.m */; };
+		F1FEA216207C905F00C554A3 /* XWFilterAnimator.m in Sources */ = {isa = PBXBuildFile; fileRef = F1FEA1E4207C905F00C554A3 /* XWFilterAnimator.m */; };
+		F1FEA217207C905F00C554A3 /* XWFilterAnimator+XWSwipe.m in Sources */ = {isa = PBXBuildFile; fileRef = F1FEA1E5207C905F00C554A3 /* XWFilterAnimator+XWSwipe.m */; };
+		F1FEA218207C905F00C554A3 /* XWFilterTransitionView.m in Sources */ = {isa = PBXBuildFile; fileRef = F1FEA1E7207C905F00C554A3 /* XWFilterTransitionView.m */; };
+		F1FEA219207C905F00C554A3 /* XWFilterAnimator+XWBoxBlur.m in Sources */ = {isa = PBXBuildFile; fileRef = F1FEA1E8207C905F00C554A3 /* XWFilterAnimator+XWBoxBlur.m */; };
+		F1FEA21A207C905F00C554A3 /* XWCoolAnimator+XWScanning.m in Sources */ = {isa = PBXBuildFile; fileRef = F1FEA1EA207C905F00C554A3 /* XWCoolAnimator+XWScanning.m */; };
+		F1FEA21B207C905F00C554A3 /* XWCoolAnimator.m in Sources */ = {isa = PBXBuildFile; fileRef = F1FEA1EB207C905F00C554A3 /* XWCoolAnimator.m */; };
+		F1FEA21C207C905F00C554A3 /* XWCoolAnimator+XWLines.m in Sources */ = {isa = PBXBuildFile; fileRef = F1FEA1EE207C905F00C554A3 /* XWCoolAnimator+XWLines.m */; };
+		F1FEA21D207C905F00C554A3 /* XWCoolAnimator+XWExplode.m in Sources */ = {isa = PBXBuildFile; fileRef = F1FEA1F0207C905F00C554A3 /* XWCoolAnimator+XWExplode.m */; };
+		F1FEA21E207C905F00C554A3 /* XWCoolAnimator+XWFold.m in Sources */ = {isa = PBXBuildFile; fileRef = F1FEA1F3207C905F00C554A3 /* XWCoolAnimator+XWFold.m */; };
+		F1FEA21F207C905F00C554A3 /* XWCoolAnimator+XWPageFlip.m in Sources */ = {isa = PBXBuildFile; fileRef = F1FEA1F4207C905F00C554A3 /* XWCoolAnimator+XWPageFlip.m */; };
+		F1FEA220207C905F00C554A3 /* XWCoolAnimator+XWMiddlePageFlip.m in Sources */ = {isa = PBXBuildFile; fileRef = F1FEA1F6207C905F00C554A3 /* XWCoolAnimator+XWMiddlePageFlip.m */; };
+		F1FEA221207C905F00C554A3 /* XWCoolAnimator+XWPortal.m in Sources */ = {isa = PBXBuildFile; fileRef = F1FEA1F8207C905F00C554A3 /* XWCoolAnimator+XWPortal.m */; };
+		F1FEA222207C905F00C554A3 /* XWMagicMoveAnimator.m in Sources */ = {isa = PBXBuildFile; fileRef = F1FEA1FC207C905F00C554A3 /* XWMagicMoveAnimator.m */; };
+		F1FEA223207C905F00C554A3 /* line.png in Resources */ = {isa = PBXBuildFile; fileRef = F1FEA1FE207C905F00C554A3 /* line.png */; };
+		F1FEA224207C905F00C554A3 /* restrictedshine.tiff in Resources */ = {isa = PBXBuildFile; fileRef = F1FEA1FF207C905F00C554A3 /* restrictedshine.tiff */; };
+		F1FEA225207C905F00C554A3 /* mask.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F1FEA200207C905F00C554A3 /* mask.jpg */; };
+		F1FEA226207C905F00C554A3 /* XWInteractiveTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = F1FEA204207C905F00C554A3 /* XWInteractiveTransition.m */; };
+		F1FEA227207C905F00C554A3 /* XWTransitionAnimator.m in Sources */ = {isa = PBXBuildFile; fileRef = F1FEA205207C905F00C554A3 /* XWTransitionAnimator.m */; };
+		F1FEA228207C905F00C554A3 /* XWCircleSpreadAnimator.m in Sources */ = {isa = PBXBuildFile; fileRef = F1FEA207207C905F00C554A3 /* XWCircleSpreadAnimator.m */; };
+		F1FEA229207C905F00C554A3 /* XWDrawerAnimator.m in Sources */ = {isa = PBXBuildFile; fileRef = F1FEA20B207C905F00C554A3 /* XWDrawerAnimator.m */; };
+		F1FEA22C207C966400C554A3 /* LoginVideoView.m in Sources */ = {isa = PBXBuildFile; fileRef = F1FEA22B207C966400C554A3 /* LoginVideoView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -106,6 +137,65 @@
 		F1FEA1C4207B5DF200C554A3 /* LoginMessageView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LoginMessageView.m; sourceTree = "<group>"; };
 		F1FEA1C6207B5FBC00C554A3 /* UIView+myFrame.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIView+myFrame.h"; sourceTree = "<group>"; };
 		F1FEA1C7207B5FBC00C554A3 /* UIView+myFrame.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIView+myFrame.m"; sourceTree = "<group>"; };
+		F1FEA1CC207C905F00C554A3 /* UIView+Snapshot.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Snapshot.m"; sourceTree = "<group>"; };
+		F1FEA1CD207C905F00C554A3 /* UINavigationController+XWTransition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UINavigationController+XWTransition.m"; sourceTree = "<group>"; };
+		F1FEA1CE207C905F00C554A3 /* UIViewController+XWTransition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+XWTransition.h"; sourceTree = "<group>"; };
+		F1FEA1CF207C905F00C554A3 /* UIView+Snapshot.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Snapshot.h"; sourceTree = "<group>"; };
+		F1FEA1D0207C905F00C554A3 /* UINavigationController+XWTransition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UINavigationController+XWTransition.h"; sourceTree = "<group>"; };
+		F1FEA1D1207C905F00C554A3 /* UIViewController+XWTransition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+XWTransition.m"; sourceTree = "<group>"; };
+		F1FEA1D3207C905F00C554A3 /* XWFilterAnimator+XWMod.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "XWFilterAnimator+XWMod.h"; sourceTree = "<group>"; };
+		F1FEA1D4207C905F00C554A3 /* XWFilterAnimator+XWFlash.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "XWFilterAnimator+XWFlash.h"; sourceTree = "<group>"; };
+		F1FEA1D5207C905F00C554A3 /* XWFilterAnimator+XWBarSwipe.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "XWFilterAnimator+XWBarSwipe.m"; sourceTree = "<group>"; };
+		F1FEA1D6207C905F00C554A3 /* XWFilterAnimator+XWPageCurl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "XWFilterAnimator+XWPageCurl.m"; sourceTree = "<group>"; };
+		F1FEA1D7207C905F00C554A3 /* XWFilterAnimator+XWMask.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "XWFilterAnimator+XWMask.h"; sourceTree = "<group>"; };
+		F1FEA1D8207C905F00C554A3 /* XWFilterAnimator+XWSwipe.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "XWFilterAnimator+XWSwipe.h"; sourceTree = "<group>"; };
+		F1FEA1D9207C905F00C554A3 /* XWFilterAnimator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XWFilterAnimator.h; sourceTree = "<group>"; };
+		F1FEA1DA207C905F00C554A3 /* XWFilterAnimator+XWCopyMachine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "XWFilterAnimator+XWCopyMachine.m"; sourceTree = "<group>"; };
+		F1FEA1DB207C905F00C554A3 /* XWFilterAnimator+XWBoxBlur.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "XWFilterAnimator+XWBoxBlur.h"; sourceTree = "<group>"; };
+		F1FEA1DC207C905F00C554A3 /* XWFilterTransitionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XWFilterTransitionView.h; sourceTree = "<group>"; };
+		F1FEA1DD207C905F00C554A3 /* XWFilterAnimator+XWRipple.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "XWFilterAnimator+XWRipple.m"; sourceTree = "<group>"; };
+		F1FEA1DE207C905F00C554A3 /* XWFilterAnimator+XWFlash.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "XWFilterAnimator+XWFlash.m"; sourceTree = "<group>"; };
+		F1FEA1DF207C905F00C554A3 /* XWFilterAnimator+XWMod.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "XWFilterAnimator+XWMod.m"; sourceTree = "<group>"; };
+		F1FEA1E0207C905F00C554A3 /* XWFilterAnimator+XWMask.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "XWFilterAnimator+XWMask.m"; sourceTree = "<group>"; };
+		F1FEA1E1207C905F00C554A3 /* XWFilterAnimator+XWPageCurl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "XWFilterAnimator+XWPageCurl.h"; sourceTree = "<group>"; };
+		F1FEA1E2207C905F00C554A3 /* XWFilterAnimator+XWBarSwipe.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "XWFilterAnimator+XWBarSwipe.h"; sourceTree = "<group>"; };
+		F1FEA1E3207C905F00C554A3 /* XWFilterAnimator+XWCopyMachine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "XWFilterAnimator+XWCopyMachine.h"; sourceTree = "<group>"; };
+		F1FEA1E4207C905F00C554A3 /* XWFilterAnimator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XWFilterAnimator.m; sourceTree = "<group>"; };
+		F1FEA1E5207C905F00C554A3 /* XWFilterAnimator+XWSwipe.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "XWFilterAnimator+XWSwipe.m"; sourceTree = "<group>"; };
+		F1FEA1E6207C905F00C554A3 /* XWFilterAnimator+XWRipple.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "XWFilterAnimator+XWRipple.h"; sourceTree = "<group>"; };
+		F1FEA1E7207C905F00C554A3 /* XWFilterTransitionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XWFilterTransitionView.m; sourceTree = "<group>"; };
+		F1FEA1E8207C905F00C554A3 /* XWFilterAnimator+XWBoxBlur.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "XWFilterAnimator+XWBoxBlur.m"; sourceTree = "<group>"; };
+		F1FEA1EA207C905F00C554A3 /* XWCoolAnimator+XWScanning.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "XWCoolAnimator+XWScanning.m"; sourceTree = "<group>"; };
+		F1FEA1EB207C905F00C554A3 /* XWCoolAnimator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XWCoolAnimator.m; sourceTree = "<group>"; };
+		F1FEA1EC207C905F00C554A3 /* XWCoolAnimator+XWPageFlip.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "XWCoolAnimator+XWPageFlip.h"; sourceTree = "<group>"; };
+		F1FEA1ED207C905F00C554A3 /* XWCoolAnimator+XWFold.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "XWCoolAnimator+XWFold.h"; sourceTree = "<group>"; };
+		F1FEA1EE207C905F00C554A3 /* XWCoolAnimator+XWLines.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "XWCoolAnimator+XWLines.m"; sourceTree = "<group>"; };
+		F1FEA1EF207C905F00C554A3 /* XWCoolAnimator+XWMiddlePageFlip.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "XWCoolAnimator+XWMiddlePageFlip.h"; sourceTree = "<group>"; };
+		F1FEA1F0207C905F00C554A3 /* XWCoolAnimator+XWExplode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "XWCoolAnimator+XWExplode.m"; sourceTree = "<group>"; };
+		F1FEA1F1207C905F00C554A3 /* XWCoolAnimator+XWPortal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "XWCoolAnimator+XWPortal.h"; sourceTree = "<group>"; };
+		F1FEA1F2207C905F00C554A3 /* XWCoolAnimator+XWScanning.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "XWCoolAnimator+XWScanning.h"; sourceTree = "<group>"; };
+		F1FEA1F3207C905F00C554A3 /* XWCoolAnimator+XWFold.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "XWCoolAnimator+XWFold.m"; sourceTree = "<group>"; };
+		F1FEA1F4207C905F00C554A3 /* XWCoolAnimator+XWPageFlip.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "XWCoolAnimator+XWPageFlip.m"; sourceTree = "<group>"; };
+		F1FEA1F5207C905F00C554A3 /* XWCoolAnimator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XWCoolAnimator.h; sourceTree = "<group>"; };
+		F1FEA1F6207C905F00C554A3 /* XWCoolAnimator+XWMiddlePageFlip.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "XWCoolAnimator+XWMiddlePageFlip.m"; sourceTree = "<group>"; };
+		F1FEA1F7207C905F00C554A3 /* XWCoolAnimator+XWLines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "XWCoolAnimator+XWLines.h"; sourceTree = "<group>"; };
+		F1FEA1F8207C905F00C554A3 /* XWCoolAnimator+XWPortal.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "XWCoolAnimator+XWPortal.m"; sourceTree = "<group>"; };
+		F1FEA1F9207C905F00C554A3 /* XWCoolAnimator+XWExplode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "XWCoolAnimator+XWExplode.h"; sourceTree = "<group>"; };
+		F1FEA1FB207C905F00C554A3 /* XWMagicMoveAnimator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XWMagicMoveAnimator.h; sourceTree = "<group>"; };
+		F1FEA1FC207C905F00C554A3 /* XWMagicMoveAnimator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XWMagicMoveAnimator.m; sourceTree = "<group>"; };
+		F1FEA1FE207C905F00C554A3 /* line.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = line.png; sourceTree = "<group>"; };
+		F1FEA1FF207C905F00C554A3 /* restrictedshine.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = restrictedshine.tiff; sourceTree = "<group>"; };
+		F1FEA200207C905F00C554A3 /* mask.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = mask.jpg; sourceTree = "<group>"; };
+		F1FEA202207C905F00C554A3 /* XWInteractiveTransition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XWInteractiveTransition.h; sourceTree = "<group>"; };
+		F1FEA203207C905F00C554A3 /* XWTransitionAnimator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XWTransitionAnimator.h; sourceTree = "<group>"; };
+		F1FEA204207C905F00C554A3 /* XWInteractiveTransition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XWInteractiveTransition.m; sourceTree = "<group>"; };
+		F1FEA205207C905F00C554A3 /* XWTransitionAnimator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XWTransitionAnimator.m; sourceTree = "<group>"; };
+		F1FEA207207C905F00C554A3 /* XWCircleSpreadAnimator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XWCircleSpreadAnimator.m; sourceTree = "<group>"; };
+		F1FEA208207C905F00C554A3 /* XWCircleSpreadAnimator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XWCircleSpreadAnimator.h; sourceTree = "<group>"; };
+		F1FEA20A207C905F00C554A3 /* XWDrawerAnimator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XWDrawerAnimator.h; sourceTree = "<group>"; };
+		F1FEA20B207C905F00C554A3 /* XWDrawerAnimator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XWDrawerAnimator.m; sourceTree = "<group>"; };
+		F1FEA22A207C966400C554A3 /* LoginVideoView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LoginVideoView.h; sourceTree = "<group>"; };
+		F1FEA22B207C966400C554A3 /* LoginVideoView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LoginVideoView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -309,6 +399,7 @@
 		F19C20C52069E17600CFCE75 /* ThirdPart */ = {
 			isa = PBXGroup;
 			children = (
+				F1FEA1CA207C905F00C554A3 /* XWTransition */,
 				F1FEA1AE207B1AC400C554A3 /* FMDBManager */,
 			);
 			path = ThirdPart;
@@ -367,8 +458,138 @@
 			children = (
 				F1FEA1C3207B5DF200C554A3 /* LoginMessageView.h */,
 				F1FEA1C4207B5DF200C554A3 /* LoginMessageView.m */,
+				F1FEA22A207C966400C554A3 /* LoginVideoView.h */,
+				F1FEA22B207C966400C554A3 /* LoginVideoView.m */,
 			);
 			path = Views;
+			sourceTree = "<group>";
+		};
+		F1FEA1CA207C905F00C554A3 /* XWTransition */ = {
+			isa = PBXGroup;
+			children = (
+				F1FEA1CB207C905F00C554A3 /* Category */,
+				F1FEA1D2207C905F00C554A3 /* XWFilterAnimator */,
+				F1FEA1E9207C905F00C554A3 /* XWCoolAnimator */,
+				F1FEA1FA207C905F00C554A3 /* XWMagicMoveAnimator */,
+				F1FEA1FD207C905F00C554A3 /* Resoures */,
+				F1FEA201207C905F00C554A3 /* Main */,
+				F1FEA206207C905F00C554A3 /* XWCircleSpreadAnimator */,
+				F1FEA209207C905F00C554A3 /* XWDrawerAnimator */,
+			);
+			path = XWTransition;
+			sourceTree = "<group>";
+		};
+		F1FEA1CB207C905F00C554A3 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				F1FEA1CC207C905F00C554A3 /* UIView+Snapshot.m */,
+				F1FEA1CD207C905F00C554A3 /* UINavigationController+XWTransition.m */,
+				F1FEA1CE207C905F00C554A3 /* UIViewController+XWTransition.h */,
+				F1FEA1CF207C905F00C554A3 /* UIView+Snapshot.h */,
+				F1FEA1D0207C905F00C554A3 /* UINavigationController+XWTransition.h */,
+				F1FEA1D1207C905F00C554A3 /* UIViewController+XWTransition.m */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		F1FEA1D2207C905F00C554A3 /* XWFilterAnimator */ = {
+			isa = PBXGroup;
+			children = (
+				F1FEA1D3207C905F00C554A3 /* XWFilterAnimator+XWMod.h */,
+				F1FEA1D4207C905F00C554A3 /* XWFilterAnimator+XWFlash.h */,
+				F1FEA1D5207C905F00C554A3 /* XWFilterAnimator+XWBarSwipe.m */,
+				F1FEA1D6207C905F00C554A3 /* XWFilterAnimator+XWPageCurl.m */,
+				F1FEA1D7207C905F00C554A3 /* XWFilterAnimator+XWMask.h */,
+				F1FEA1D8207C905F00C554A3 /* XWFilterAnimator+XWSwipe.h */,
+				F1FEA1D9207C905F00C554A3 /* XWFilterAnimator.h */,
+				F1FEA1DA207C905F00C554A3 /* XWFilterAnimator+XWCopyMachine.m */,
+				F1FEA1DB207C905F00C554A3 /* XWFilterAnimator+XWBoxBlur.h */,
+				F1FEA1DC207C905F00C554A3 /* XWFilterTransitionView.h */,
+				F1FEA1DD207C905F00C554A3 /* XWFilterAnimator+XWRipple.m */,
+				F1FEA1DE207C905F00C554A3 /* XWFilterAnimator+XWFlash.m */,
+				F1FEA1DF207C905F00C554A3 /* XWFilterAnimator+XWMod.m */,
+				F1FEA1E0207C905F00C554A3 /* XWFilterAnimator+XWMask.m */,
+				F1FEA1E1207C905F00C554A3 /* XWFilterAnimator+XWPageCurl.h */,
+				F1FEA1E2207C905F00C554A3 /* XWFilterAnimator+XWBarSwipe.h */,
+				F1FEA1E3207C905F00C554A3 /* XWFilterAnimator+XWCopyMachine.h */,
+				F1FEA1E4207C905F00C554A3 /* XWFilterAnimator.m */,
+				F1FEA1E5207C905F00C554A3 /* XWFilterAnimator+XWSwipe.m */,
+				F1FEA1E6207C905F00C554A3 /* XWFilterAnimator+XWRipple.h */,
+				F1FEA1E7207C905F00C554A3 /* XWFilterTransitionView.m */,
+				F1FEA1E8207C905F00C554A3 /* XWFilterAnimator+XWBoxBlur.m */,
+			);
+			path = XWFilterAnimator;
+			sourceTree = "<group>";
+		};
+		F1FEA1E9207C905F00C554A3 /* XWCoolAnimator */ = {
+			isa = PBXGroup;
+			children = (
+				F1FEA1EA207C905F00C554A3 /* XWCoolAnimator+XWScanning.m */,
+				F1FEA1EB207C905F00C554A3 /* XWCoolAnimator.m */,
+				F1FEA1EC207C905F00C554A3 /* XWCoolAnimator+XWPageFlip.h */,
+				F1FEA1ED207C905F00C554A3 /* XWCoolAnimator+XWFold.h */,
+				F1FEA1EE207C905F00C554A3 /* XWCoolAnimator+XWLines.m */,
+				F1FEA1EF207C905F00C554A3 /* XWCoolAnimator+XWMiddlePageFlip.h */,
+				F1FEA1F0207C905F00C554A3 /* XWCoolAnimator+XWExplode.m */,
+				F1FEA1F1207C905F00C554A3 /* XWCoolAnimator+XWPortal.h */,
+				F1FEA1F2207C905F00C554A3 /* XWCoolAnimator+XWScanning.h */,
+				F1FEA1F3207C905F00C554A3 /* XWCoolAnimator+XWFold.m */,
+				F1FEA1F4207C905F00C554A3 /* XWCoolAnimator+XWPageFlip.m */,
+				F1FEA1F5207C905F00C554A3 /* XWCoolAnimator.h */,
+				F1FEA1F6207C905F00C554A3 /* XWCoolAnimator+XWMiddlePageFlip.m */,
+				F1FEA1F7207C905F00C554A3 /* XWCoolAnimator+XWLines.h */,
+				F1FEA1F8207C905F00C554A3 /* XWCoolAnimator+XWPortal.m */,
+				F1FEA1F9207C905F00C554A3 /* XWCoolAnimator+XWExplode.h */,
+			);
+			path = XWCoolAnimator;
+			sourceTree = "<group>";
+		};
+		F1FEA1FA207C905F00C554A3 /* XWMagicMoveAnimator */ = {
+			isa = PBXGroup;
+			children = (
+				F1FEA1FB207C905F00C554A3 /* XWMagicMoveAnimator.h */,
+				F1FEA1FC207C905F00C554A3 /* XWMagicMoveAnimator.m */,
+			);
+			path = XWMagicMoveAnimator;
+			sourceTree = "<group>";
+		};
+		F1FEA1FD207C905F00C554A3 /* Resoures */ = {
+			isa = PBXGroup;
+			children = (
+				F1FEA1FE207C905F00C554A3 /* line.png */,
+				F1FEA1FF207C905F00C554A3 /* restrictedshine.tiff */,
+				F1FEA200207C905F00C554A3 /* mask.jpg */,
+			);
+			path = Resoures;
+			sourceTree = "<group>";
+		};
+		F1FEA201207C905F00C554A3 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				F1FEA202207C905F00C554A3 /* XWInteractiveTransition.h */,
+				F1FEA203207C905F00C554A3 /* XWTransitionAnimator.h */,
+				F1FEA204207C905F00C554A3 /* XWInteractiveTransition.m */,
+				F1FEA205207C905F00C554A3 /* XWTransitionAnimator.m */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		F1FEA206207C905F00C554A3 /* XWCircleSpreadAnimator */ = {
+			isa = PBXGroup;
+			children = (
+				F1FEA207207C905F00C554A3 /* XWCircleSpreadAnimator.m */,
+				F1FEA208207C905F00C554A3 /* XWCircleSpreadAnimator.h */,
+			);
+			path = XWCircleSpreadAnimator;
+			sourceTree = "<group>";
+		};
+		F1FEA209207C905F00C554A3 /* XWDrawerAnimator */ = {
+			isa = PBXGroup;
+			children = (
+				F1FEA20A207C905F00C554A3 /* XWDrawerAnimator.h */,
+				F1FEA20B207C905F00C554A3 /* XWDrawerAnimator.m */,
+			);
+			path = XWDrawerAnimator;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -481,8 +702,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				F19C20952069E07D00CFCE75 /* LaunchScreen.storyboard in Resources */,
+				F1FEA225207C905F00C554A3 /* mask.jpg in Resources */,
 				F19C20922069E07D00CFCE75 /* Assets.xcassets in Resources */,
 				F1FEA1C1207B586900C554A3 /* LoginVideo.mp4 in Resources */,
+				F1FEA223207C905F00C554A3 /* line.png in Resources */,
+				F1FEA224207C905F00C554A3 /* restrictedshine.tiff in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -561,24 +785,52 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F1FEA226207C905F00C554A3 /* XWInteractiveTransition.m in Sources */,
+				F1FEA210207C905F00C554A3 /* XWFilterAnimator+XWPageCurl.m in Sources */,
 				F1FEA192207A03F200C554A3 /* UINavigationController+FDFullscreenPopGesture.m in Sources */,
+				F1FEA211207C905F00C554A3 /* XWFilterAnimator+XWCopyMachine.m in Sources */,
+				F1FEA20C207C905F00C554A3 /* UIView+Snapshot.m in Sources */,
 				F1FEA1AC207B173400C554A3 /* AccountTableViewHeaderView.m in Sources */,
+				F1FEA21A207C905F00C554A3 /* XWCoolAnimator+XWScanning.m in Sources */,
 				F19C20C02069E10B00CFCE75 /* AccountingController.m in Sources */,
+				F1FEA221207C905F00C554A3 /* XWCoolAnimator+XWPortal.m in Sources */,
 				F16FFBB5206FD0A4006411DB /* AccountController.m in Sources */,
+				F1FEA22C207C966400C554A3 /* LoginVideoView.m in Sources */,
+				F1FEA216207C905F00C554A3 /* XWFilterAnimator.m in Sources */,
 				F1FEA1A6207B007F00C554A3 /* BaseNavBarView.m in Sources */,
+				F1FEA21B207C905F00C554A3 /* XWCoolAnimator.m in Sources */,
 				F1FEA1B4207B1AC400C554A3 /* ManagerConst.m in Sources */,
+				F1FEA20D207C905F00C554A3 /* UINavigationController+XWTransition.m in Sources */,
 				F16FFBA2206FC564006411DB /* MainViewController.m in Sources */,
 				F19C20982069E07D00CFCE75 /* main.m in Sources */,
+				F1FEA227207C905F00C554A3 /* XWTransitionAnimator.m in Sources */,
+				F1FEA228207C905F00C554A3 /* XWCircleSpreadAnimator.m in Sources */,
+				F1FEA217207C905F00C554A3 /* XWFilterAnimator+XWSwipe.m in Sources */,
 				F1FEA1B8207B4C4F00C554A3 /* LoginViewController.m in Sources */,
+				F1FEA21F207C905F00C554A3 /* XWCoolAnimator+XWPageFlip.m in Sources */,
+				F1FEA213207C905F00C554A3 /* XWFilterAnimator+XWFlash.m in Sources */,
+				F1FEA229207C905F00C554A3 /* XWDrawerAnimator.m in Sources */,
+				F1FEA220207C905F00C554A3 /* XWCoolAnimator+XWMiddlePageFlip.m in Sources */,
+				F1FEA21C207C905F00C554A3 /* XWCoolAnimator+XWLines.m in Sources */,
+				F1FEA21E207C905F00C554A3 /* XWCoolAnimator+XWFold.m in Sources */,
 				F1FEA1A9207B166100C554A3 /* AccountBarView.m in Sources */,
 				F1FEA1C8207B5FBC00C554A3 /* UIView+myFrame.m in Sources */,
 				F1FEA1A3207A08A400C554A3 /* BaseTableView.m in Sources */,
+				F1FEA214207C905F00C554A3 /* XWFilterAnimator+XWMod.m in Sources */,
+				F1FEA215207C905F00C554A3 /* XWFilterAnimator+XWMask.m in Sources */,
+				F1FEA20E207C905F00C554A3 /* UIViewController+XWTransition.m in Sources */,
+				F1FEA212207C905F00C554A3 /* XWFilterAnimator+XWRipple.m in Sources */,
 				F1FEA18E207A01EC00C554A3 /* BaseNavigationController.m in Sources */,
 				F1FEA1B5207B1AC400C554A3 /* FMDB_Manager.m in Sources */,
+				F1FEA222207C905F00C554A3 /* XWMagicMoveAnimator.m in Sources */,
+				F1FEA20F207C905F00C554A3 /* XWFilterAnimator+XWBarSwipe.m in Sources */,
 				F16FFBA5206FC59B006411DB /* BaseViewController.m in Sources */,
 				F1FEA1C5207B5DF200C554A3 /* LoginMessageView.m in Sources */,
 				F16FFBAD206FCE64006411DB /* UIColor+My.m in Sources */,
 				F19C208A2069E07D00CFCE75 /* AppDelegate.m in Sources */,
+				F1FEA218207C905F00C554A3 /* XWFilterTransitionView.m in Sources */,
+				F1FEA219207C905F00C554A3 /* XWFilterAnimator+XWBoxBlur.m in Sources */,
+				F1FEA21D207C905F00C554A3 /* XWCoolAnimator+XWExplode.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

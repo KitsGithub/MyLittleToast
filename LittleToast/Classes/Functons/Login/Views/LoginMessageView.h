@@ -11,7 +11,7 @@
 @protocol loginMessageDelegate <NSObject>
 
 @optional
-- (void)loginWithUserName:(NSString *)userName password:(NSString *)password;
+- (void)loginWithUserName:(NSString *)userName password:(NSString *)password touchPoint:(CGPoint)touchPoint;
 
 @end
 

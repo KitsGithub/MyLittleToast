@@ -31,6 +31,7 @@
 #define COLOR_TIPS [UIColor colorFormHexRGB:@"999999"]
 #define COLOR_SEPOARTE [UIColor colorFormHexRGB:@"E5E5E5"]
 #define COLOR_WHITE [UIColor whiteColor]
+#define CLOLR_BLACK [UIColor blackColor]
 
 //userInfo路径
 #define USERINFO_PATH [DocumentPATH stringByAppendingPathComponent:@"USERINFO.plist"]
