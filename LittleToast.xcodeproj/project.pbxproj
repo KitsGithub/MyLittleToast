@@ -64,6 +64,10 @@
 		F1FEA228207C905F00C554A3 /* XWCircleSpreadAnimator.m in Sources */ = {isa = PBXBuildFile; fileRef = F1FEA207207C905F00C554A3 /* XWCircleSpreadAnimator.m */; };
 		F1FEA229207C905F00C554A3 /* XWDrawerAnimator.m in Sources */ = {isa = PBXBuildFile; fileRef = F1FEA20B207C905F00C554A3 /* XWDrawerAnimator.m */; };
 		F1FEA22C207C966400C554A3 /* LoginVideoView.m in Sources */ = {isa = PBXBuildFile; fileRef = F1FEA22B207C966400C554A3 /* LoginVideoView.m */; };
+		F1FEA22F207CA09800C554A3 /* MineViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F1FEA22E207CA09800C554A3 /* MineViewController.m */; };
+		F1FEA232207CA60600C554A3 /* AccountHeader.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F1FEA231207CA60600C554A3 /* AccountHeader.jpg */; };
+		F1FEA235207CAA1E00C554A3 /* AccountCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F1FEA234207CAA1E00C554A3 /* AccountCell.m */; };
+		F1FEA238207CACCA00C554A3 /* NSString+FontSize.m in Sources */ = {isa = PBXBuildFile; fileRef = F1FEA236207CACCA00C554A3 /* NSString+FontSize.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -196,6 +200,13 @@
 		F1FEA20B207C905F00C554A3 /* XWDrawerAnimator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XWDrawerAnimator.m; sourceTree = "<group>"; };
 		F1FEA22A207C966400C554A3 /* LoginVideoView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LoginVideoView.h; sourceTree = "<group>"; };
 		F1FEA22B207C966400C554A3 /* LoginVideoView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LoginVideoView.m; sourceTree = "<group>"; };
+		F1FEA22D207CA09800C554A3 /* MineViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MineViewController.h; sourceTree = "<group>"; };
+		F1FEA22E207CA09800C554A3 /* MineViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MineViewController.m; sourceTree = "<group>"; };
+		F1FEA231207CA60600C554A3 /* AccountHeader.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = AccountHeader.jpg; sourceTree = "<group>"; };
+		F1FEA233207CAA1E00C554A3 /* AccountCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AccountCell.h; sourceTree = "<group>"; };
+		F1FEA234207CAA1E00C554A3 /* AccountCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AccountCell.m; sourceTree = "<group>"; };
+		F1FEA236207CACCA00C554A3 /* NSString+FontSize.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+FontSize.m"; sourceTree = "<group>"; };
+		F1FEA237207CACCA00C554A3 /* NSString+FontSize.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+FontSize.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -248,6 +259,8 @@
 		F16FFBAA206FCE4C006411DB /* Categary */ = {
 			isa = PBXGroup;
 			children = (
+				F1FEA237207CACCA00C554A3 /* NSString+FontSize.h */,
+				F1FEA236207CACCA00C554A3 /* NSString+FontSize.m */,
 				F1FEA190207A03F200C554A3 /* UINavigationController+FDFullscreenPopGesture.h */,
 				F1FEA191207A03F200C554A3 /* UINavigationController+FDFullscreenPopGesture.m */,
 				F16FFBAC206FCE64006411DB /* UIColor+My.h */,
@@ -297,6 +310,8 @@
 		F16FFBB2206FD085006411DB /* Mine */ = {
 			isa = PBXGroup;
 			children = (
+				F1FEA22D207CA09800C554A3 /* MineViewController.h */,
+				F1FEA22E207CA09800C554A3 /* MineViewController.m */,
 			);
 			path = Mine;
 			sourceTree = "<group>";
@@ -412,6 +427,8 @@
 				F1FEA1A8207B166100C554A3 /* AccountBarView.m */,
 				F1FEA1AA207B173400C554A3 /* AccountTableViewHeaderView.h */,
 				F1FEA1AB207B173400C554A3 /* AccountTableViewHeaderView.m */,
+				F1FEA233207CAA1E00C554A3 /* AccountCell.h */,
+				F1FEA234207CAA1E00C554A3 /* AccountCell.m */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -448,6 +465,7 @@
 		F1FEA1BD207B584900C554A3 /* Resource */ = {
 			isa = PBXGroup;
 			children = (
+				F1FEA230207CA60600C554A3 /* Images */,
 				F1FEA1C0207B586900C554A3 /* LoginVideo.mp4 */,
 			);
 			path = Resource;
@@ -592,6 +610,14 @@
 			path = XWDrawerAnimator;
 			sourceTree = "<group>";
 		};
+		F1FEA230207CA60600C554A3 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				F1FEA231207CA60600C554A3 /* AccountHeader.jpg */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -707,6 +733,7 @@
 				F1FEA1C1207B586900C554A3 /* LoginVideo.mp4 in Resources */,
 				F1FEA223207C905F00C554A3 /* line.png in Resources */,
 				F1FEA224207C905F00C554A3 /* restrictedshine.tiff in Resources */,
+				F1FEA232207CA60600C554A3 /* AccountHeader.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -790,12 +817,14 @@
 				F1FEA192207A03F200C554A3 /* UINavigationController+FDFullscreenPopGesture.m in Sources */,
 				F1FEA211207C905F00C554A3 /* XWFilterAnimator+XWCopyMachine.m in Sources */,
 				F1FEA20C207C905F00C554A3 /* UIView+Snapshot.m in Sources */,
+				F1FEA235207CAA1E00C554A3 /* AccountCell.m in Sources */,
 				F1FEA1AC207B173400C554A3 /* AccountTableViewHeaderView.m in Sources */,
 				F1FEA21A207C905F00C554A3 /* XWCoolAnimator+XWScanning.m in Sources */,
 				F19C20C02069E10B00CFCE75 /* AccountingController.m in Sources */,
 				F1FEA221207C905F00C554A3 /* XWCoolAnimator+XWPortal.m in Sources */,
 				F16FFBB5206FD0A4006411DB /* AccountController.m in Sources */,
 				F1FEA22C207C966400C554A3 /* LoginVideoView.m in Sources */,
+				F1FEA22F207CA09800C554A3 /* MineViewController.m in Sources */,
 				F1FEA216207C905F00C554A3 /* XWFilterAnimator.m in Sources */,
 				F1FEA1A6207B007F00C554A3 /* BaseNavBarView.m in Sources */,
 				F1FEA21B207C905F00C554A3 /* XWCoolAnimator.m in Sources */,
@@ -818,6 +847,7 @@
 				F1FEA1A3207A08A400C554A3 /* BaseTableView.m in Sources */,
 				F1FEA214207C905F00C554A3 /* XWFilterAnimator+XWMod.m in Sources */,
 				F1FEA215207C905F00C554A3 /* XWFilterAnimator+XWMask.m in Sources */,
+				F1FEA238207CACCA00C554A3 /* NSString+FontSize.m in Sources */,
 				F1FEA20E207C905F00C554A3 /* UIViewController+XWTransition.m in Sources */,
 				F1FEA212207C905F00C554A3 /* XWFilterAnimator+XWRipple.m in Sources */,
 				F1FEA18E207A01EC00C554A3 /* BaseNavigationController.m in Sources */,

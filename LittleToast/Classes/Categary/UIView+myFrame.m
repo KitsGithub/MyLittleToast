@@ -108,7 +108,7 @@
 
 
 - (CGFloat)bottom {
-    return self.frame.size.height;
+    return self.frame.size.height + self.frame.origin.y;
 }
 
 - (CGFloat)top {
@@ -120,7 +120,7 @@
 }
 
 - (CGFloat)right {
-    return self.frame.size.width;
+    return self.frame.size.width + self.frame.origin.x;
 }
 
 

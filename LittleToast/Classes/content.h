@@ -44,6 +44,7 @@
 
 /** 项目间距配置 */
 #define paddingLeft 20
+#define MAX_SIZE CGSizeMake(MAXFLOAT, MAXFLOAT)
 
 /** 常用字体 */
 #define FONT_NORMAL [UIFont systemFontOfSize:14]

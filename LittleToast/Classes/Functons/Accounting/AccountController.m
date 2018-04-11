@@ -9,6 +9,7 @@
 #import "AccountController.h"
 #import "AccountBarView.h"
 #import "AccountTableViewHeaderView.h"
+#import "AccountCell.h"
 
 static NSString *accountingReusedID = @"accountingReusedID";
 
@@ -54,12 +55,17 @@ static NSString *accountingReusedID = @"accountingReusedID";
 }
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
-    return 100;
+    return 4;
 }
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
-    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:accountingReusedID forIndexPath:indexPath];
+    AccountCell *cell = [tableView dequeueReusableCellWithIdentifier:accountingReusedID forIndexPath:indexPath];
+    
     return cell;
+}
+
+- (CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath {
+    return 65;
 }
 
 
@@ -74,14 +80,18 @@ static NSString *accountingReusedID = @"accountingReusedID";
         _tableView.dataSource = self;
         _tableView.delegate = self;
         _tableView.showsVerticalScrollIndicator = NO;
-        [_tableView registerClass:[UITableViewCell class] forCellReuseIdentifier:accountingReusedID];
+        [_tableView registerClass:[AccountCell class] forCellReuseIdentifier:accountingReusedID];
+        _tableView.separatorStyle = UITableViewCellSeparatorStyleNone;
+        _tableView.tableHeaderView = self.headerView;
+        
+        _tableView.tableFooterView = [[UIView alloc] initWithFrame:CGRectMake(0, 0, SCREEN_WIDTH, 49)];
     }
     return _tableView;
 }
 
 - (AccountTableViewHeaderView *)headerView {
     if (!_headerView) {
-        _headerView = [[AccountTableViewHeaderView alloc] initWithFrame:CGRectMake(0, 0, SCREEN_WIDTH, 400)];
+        _headerView = [[AccountTableViewHeaderView alloc] initWithFrame:CGRectMake(0, 0, SCREEN_WIDTH, SCREEN_WIDTH - 50)];
     }
     return _headerView;
 }

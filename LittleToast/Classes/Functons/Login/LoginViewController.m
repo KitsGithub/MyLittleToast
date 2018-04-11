@@ -41,13 +41,13 @@
     [super viewWillAppear:animated];
     
     //开始播放视频
+    [self.player seekToTime:kCMTimeZero];
     [self.player play];
 }
 
 - (void)viewWillDisappear:(BOOL)animated {
     [super viewWillDisappear:animated];
     [self.player pause];
-    self.player = nil;
 }
 
 - (void)viewDidLoad {
@@ -69,7 +69,7 @@
     [self.view addSubview:self.playerView];
     //创建播放窗口
     [self.playerView.layer addSublayer:self.playerLayer];
-    [self.view addSubview:self.coverView];
+//    [self.view addSubview:self.coverView];
     
     LoginMessageView *messageView = [[LoginMessageView alloc] initWithFrame:CGRectMake(0, 0, SCREEN_WIDTH, SCREEN_HEIGHT - NavigationBar_Height)];
     messageView.delegate = self;
@@ -86,10 +86,13 @@
     // todo
     
     
+    [[NSUserDefaults standardUserDefaults] setObject:NSStringFromCGPoint(touchPoint) forKey:@"LoginTouchPoint"];
+    
     //创建转场动画
     UIViewController *main = [[MainViewController alloc] init];
     XWCircleSpreadAnimator *animator = [XWCircleSpreadAnimator xw_animatorWithStartCenter:touchPoint radius:20];
-    
+    animator.toDuration = 0.3f;
+    animator.backDuration = 0.5f;
     // 跳转主界面
     [self xw_presentViewController:main withAnimator:animator];
     

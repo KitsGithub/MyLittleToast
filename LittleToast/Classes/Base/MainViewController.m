@@ -11,6 +11,7 @@
 #import "BaseNavigationController.h"
 
 #import "AccountController.h"
+#import "MineViewController.h"
 
 
 @interface MainViewController ()
@@ -110,7 +111,7 @@
         //成员
         BaseViewController *menbers = [BaseViewController new];
         //我的
-        BaseViewController *mine = [BaseViewController new];
+        MineViewController *mine = [MineViewController new];
         
         _vcArr = [NSMutableArray arrayWithObjects:accounting,cards,menbers,mine, nil];
     }

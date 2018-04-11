@@ -18,6 +18,7 @@
 #import "UINavigationController+FDFullscreenPopGesture.h"
 #import "BaseTableView.h"
 #import "UIView+myFrame.h"
+#import "NSString+FontSize.h"
 
 //第三方头文件
 #import <UIImageView+WebCache.h>
